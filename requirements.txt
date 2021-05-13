@@ -1,0 +1,2 @@
+pyaml==20.4.0
+pystache==0.5.4
