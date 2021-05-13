@@ -4,9 +4,12 @@ Create files to update the Massive Cloud Computing Kubernetes cluster through a 
 
 ## Install
 
-Clone the repostory
+Clone the repostory, then
 
-TODO: have a propoer pythom package
+    cd split_yaml_for_moc
+    pip install -r requirements.txt
+
+TODO: have a proper python package
 
 ## Usage
 
@@ -26,7 +29,6 @@ Clone the fork (here https://github.com/tloubrieu-jpl/apps) locally.
     
 Generate the spark-operator resources and add them to the forked repository:
 
-    pip install -r requirements.txt
     python split_yaml/split_yaml.py --input-file /Users/loubrieu/Documents/sdap/HLS/charts/spark-operator-giant.yaml  --output-dir /Users/loubrieu/Documents/sdap/HLS/moc/apps/cluster-scope/base
 
 
